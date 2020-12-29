@@ -6,4 +6,8 @@ Create Spring MVC Recipe Project
   . Create index.html
   
   . HTTP -Hypertext Transfer Protocol
+        
+        - GET,POST,PUT,TRACE,OPTIONS,DELETE,CONNECT,PATCH
+        - Safe Methods are GET,HEAD,OPTIONS, TRACE
+        - Idempotent Methods are - PUT,DELETE and Safe Methods
  
