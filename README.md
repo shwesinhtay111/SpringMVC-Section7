@@ -10,6 +10,7 @@ Create Spring MVC Recipe Project
         - GET,POST,PUT,TRACE,OPTIONS,DELETE,CONNECT,PATCH
         - Safe Methods are GET,HEAD,OPTIONS, TRACE
         - Idempotent Methods are - PUT,DELETE and Safe Methods
+    
         
    . One to One Mapping
         
