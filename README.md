@@ -37,4 +37,15 @@ Create Spring MVC Recipe Project
         -@Id
         -@GeneratedValue(strategy = GenerationType.IDENTITY)
         -@ManyToOne
+        
+  . Sub class One to One Mapping
+  
+        -@Entity
+        -@Id
+        -@GeneratedValue(strategy = GenerationType.IDENTITY)
+        -@OneToOne(fetch = FetchType.EAGER)
+        
+        -@Entity
+        -@Id
+        -@GeneratedValue(strategy = GenerationType.IDENTITY)
  
