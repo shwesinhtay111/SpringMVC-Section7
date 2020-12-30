@@ -48,4 +48,11 @@ Create Spring MVC Recipe Project
         -@Entity
         -@Id
         -@GeneratedValue(strategy = GenerationType.IDENTITY)
+        
+  . JPA Enumerations
+        
+        - @Enumerated(value = EnumType.STRING)
+          Difficulty difficulty;
+          
+        - Create enum 
  
