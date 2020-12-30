@@ -18,5 +18,23 @@ Create Spring MVC Recipe Project
         -@GeneratedValue(strategy = GenerationType.IDENTITY)
         -@Lob
         -@OneToOne(cascade = CascadeType.ALL)
+       
+        
+        -@Entity
+        -@Id
+        -@GeneratedValue(strategy = GenerationType.IDENTITY)
+        -@Lob
         -@OneToOne
+        
+  .One to Many Mapping
+  
+        -@Entity
+        -@Id
+        -@GeneratedValue(strategy = GenerationType.IDENTITY)
+        -@OneToMany(cascade = CascadeType.ALL,mappedBy = "recipe")
+        
+        -@Entity
+        -@Id
+        -@GeneratedValue(strategy = GenerationType.IDENTITY)
+        -@ManyToOne
  
